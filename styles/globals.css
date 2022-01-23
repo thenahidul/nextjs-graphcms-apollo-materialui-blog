@@ -1,16 +1,36 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;700&display=swap");
 html,
 body {
-  padding: 0;
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+	padding: 0;
+	margin: 0;
+	font-family: "Roboto", sans-serif;
+	background-color: #f7f7f7;
+	background-image: url("../public/images/bg.jpeg");
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+    background-size: cover;
+	background-position:  center center;
 }
 
 a {
-  color: inherit;
-  text-decoration: none;
+	color: inherit;
+	text-decoration: none;
 }
 
 * {
-  box-sizing: border-box;
+	box-sizing: border-box;
+}
+.MuiFormHelperText-root:first-letter {
+	text-transform: uppercase;
+}
+.MuiFormHelperText-root {
+	font-weight: 500;
+}
+
+.carousel-item-margin-20-px {
+	margin-left: 10px;
+	margin-right: 10px;
+}
+.react-multiple-carousel__arrow {
+    background: #0c73d5;
 }
