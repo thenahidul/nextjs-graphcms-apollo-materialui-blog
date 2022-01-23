@@ -11,7 +11,7 @@ install all the dependencies: *`npm install`*
 
 create a **`.env`** or **`.env.local`** file in the root directory
 add *`NEXT_PUBLIC_GRAPHCMS_API`* and *`NEXT_PUBLIC_GRAPHCMS_TOKEN`*
-![enter image description here](https://i.postimg.cc/fTtN5zgc/code.png)
+![enter image description here](https://i.postimg.cc/d1cxwvqy/code.png)
 Get them from [GRAPHCMS](https://graphcms.com)
 
 Then
