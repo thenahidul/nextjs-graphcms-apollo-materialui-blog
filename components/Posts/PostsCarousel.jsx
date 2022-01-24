@@ -32,7 +32,7 @@ const PostsCarousel = ({ posts }) => {
 					responsive={responsive}
 					ssr={true}
 					infinite={true}
-					autoPlay={false}
+					autoPlay={true}
 					autoPlaySpeed={5000}
 					keyBoardControl={true}
 					transitionDuration={500}

@@ -28,9 +28,10 @@ const PostSingle = ({ post }) => {
 					<Grid item md={4} xs={12}>
 						<CategoryWidget />
 						<RelatedPostWidget
-							posts={post && post.category.map(
-								(category) => category.posts
-							)}
+							posts={
+								post &&
+								post.category.map((category) => category.posts)
+							}
 						/>
 					</Grid>
 				</Grid>
@@ -56,7 +57,8 @@ export const getStaticProps = async ({ params }) => {
 	});
 
 	return {
-		props: { post: data.post }
+		props: { post: data.post },
+		revalidate: 1
 	};
 };
 
