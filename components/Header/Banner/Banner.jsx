@@ -1,6 +1,5 @@
 import { Typography } from "@mui/material";
 import Box from "@mui/material/Box";
-import Paper from "@mui/material/Paper";
 import { useRouter } from "next/router";
 import BannerImg from "../../../public/images/banner.jpg";
 
@@ -11,13 +10,13 @@ const styles = {
 		backgroundSize: "cover",
 		backgroundAttachment: "fixed",
 		backgroundPosition: "center",
-		height: "400px"
+		height: "400px",
+		textAlign: "center",
 	}
 };
 
 const Banner = ({ title }) => {
 	const router = useRouter();
-	// console.log(router);
 
 	const breadcumb = () => {
 		// if (data.breadcumb == false) return;
