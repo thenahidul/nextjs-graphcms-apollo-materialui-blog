@@ -8,7 +8,7 @@ export default function Home() {
 	return (
 		<div className={styles.container}>
 			<Head>
-				<title>Cool Technologies</title>
+				<title>Your Next Blog</title>
 				<meta
 					name="description"
 					content="Cool Technologies that are ruling the world"
