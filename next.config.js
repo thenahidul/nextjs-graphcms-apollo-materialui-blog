@@ -1,7 +1,7 @@
 module.exports = {
 	reactStrictMode: true,
 	images: {
-		domains: ["graphcms.com"]
+		domains: ["graphcms.com", "graphassets.com"]
 	},
 	env: {
 		NEXT_API_URI: process.env.NEXT_PUBLIC_API_URI,
