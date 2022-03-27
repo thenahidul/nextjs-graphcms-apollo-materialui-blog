@@ -79,18 +79,20 @@ const NavBar = () => {
 								}
 							}}>
 							{categories.map((category) => (
-								<Button
+								<Link
+									passHref
 									href={`/category/${category.slug}`}
-									key={category.id}
-									sx={{
-										my: 2,
-										mx: 1,
-										color: "white",
-										display: "block",
-										textAlign: "center"
-									}}>
-									{category.name}
-								</Button>
+									key={category.id}>
+									<Button
+										sx={{
+											m: 1,
+											color: "white",
+											display: "block",
+											textAlign: "center"
+										}}>
+										{category.name}
+									</Button>
+								</Link>
 							))}
 						</Box>
 						<IconButton
